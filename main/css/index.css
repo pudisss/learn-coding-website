@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section.main-section {
+    width: 100vw;
+    height: 110vh;
+    background-color: rgb(244, 244, 244, 1);
+    background-image: url("../assets/images/background.svg"), url("../assets/images/decoration.svg");
+    background-repeat: no-repeat, no-repeat;
+    
+    background-position: center right, 5vw 50vh;
+    overflow-x: hidden;
+}
+
+section.main-section header.header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 2.5rem;
+    left: 4.5rem;
+}
+
+.main-section .header .category {
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    position: relative;
+    left: 4.5rem;
+}
+
+.main-section .header .category a {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 200;
+    color: black;
+    transition: 0.2s;
+}
+/* Main section */
+.main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    left: 3.5rem;
+}
+
+.main h1.header {
+    font-family: "Source Code Pro";
+    font-size: 60px;
+    font-weight: 500;
+    width: 604px;
+height: 225px;
+position: relative;
+bottom: 5.5rem;
+}
+.main p.paragraph {
+    font-family: "Source Code Pro";
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    width: 375px;
+height: 69px;
+position: relative;
+top: 3.5rem;
+}
+.main button.getstarted {
+    width: 236px;
+height: 55px;
+border: none;
+background-color: black;
+border-radius: 2px;
+font-family: "Poppins";
+font-size: 22px;
+font-weight: 500;
+color: white;
+position: relative;
+top: 6.5rem;
+background-image: url("../assets/images/arrow-button.svg");
+background-repeat: no-repeat;
+background-position: center right;
+transition: .2s;
+}
+.main button.getstarted:hover {box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.row-academy {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: hidden;
+}
+
+.special-feature {
+    width: 120vw;
+    height: 100vh;
+    background-color:rgb(244, 244, 244, 1);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.special-feature .text-section {
+    margin-left: 4.5rem;
+}
+
+.special-feature .text-section .header{
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    width: 385px;
+height: 116px;
+text-align: left;
+position: relative;
+bottom: 5.5rem;
+}
+
+.special-feature .text-section .paragraph {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 300px;
+    color: black;
+    width: 256px;
+height: 57px;
+position: relative;
+top: 1.5px;
+}
+
+.special-feature .text-section .block {
+    position: relative;
+    top: 6.5rem;
+}
+
+.special-feature .row-card {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    margin-left: 4.5rem;
+    overflow-x: scroll
+}
+
+.special-feature .row-card div {
+    width: 317px;
+height: 343px;
+border: none;
+border-radius: 14px;
+display: flex;
+flex-flow: column nowrap;
+align-items: flex-start;
+
+}
+
+.special-feature .row-card div .image {
+    position: relative;
+    top: 3.5rem;
+    left: 2.5rem;
+}
+.special-feature .row-card div .header {
+    font-family: "Poppins";
+    font-size: 34px;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    top: 5.5rem;
+    left: 2.5rem;
+}
+.special-feature .row-card div .paragraph {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    width: 160px;
+height: 66px;
+position: relative;
+top: 6.5rem;
+left: 2.5rem;
+}
+.special-feature .row-card .card1 {
+    background-color: white;
+}
+
+.special-feature .row-card .card2 {
+    background-color: rgb(221, 242, 71, 1);
+}
+.special-feature .row-card .card3 {
+    background-color: white;
+}
+
+/* First explanation section */
+section.explanation1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explanation1 .text .header {
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    width: 498px;
+height: 116px;
+}
+.explanation1 .text .paragraph {
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 200;
+    color: black;
+    width: 449px;
+height: 87px;
+position: relative;
+top: 3.5rem;
+}
+.explanation1 .text button.try {
+    width: 259px;
+height: 75px;
+background-color: black;
+border: none;
+font-family: "Poppins";
+font-size: 22px;
+font-weight: 500;
+color: white;
+position: relative;
+top: 6.5rem;
+background-image: url("../assets/images/arrow-button.svg");
+background-repeat: no-repeat;
+background-position: center right;
+}
+
+/* Get up section */
+section.getup {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.getup .text .header {
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    width: 480px;
+height: 116px;
+}
